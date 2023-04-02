@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: #333;
+    color: #fff;
+}
+
+.crud {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/*header*/
+.head {
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+
+.head h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.head p {
+    font-size: 18px;
+}
+
+
+/* Inputs */
+input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    background: #111;
+    margin: 5px 0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+input:focus {
+    background: #000;
+    transform: scale(1.1)
+}
+
+.inputs .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputs .price input {
+    width: 20%;
+}
+
+.inputs .price #total {
+    background: #f03450;
+    border-radius: 3px;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 14px 22px;
+    display: flex;
+}
+
+.inputs .price #total::before {
+    content: "Total:  "
+}
+
+button {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #140c5e;
+    padding: 14px 0;
+    border-radius: 20px;
+    font-size: 17px;
+    color: #fff;
+    transition: .5s;
+}
+
+button:hover {
+    background: #350f53;
+    transform: scale(1.1);
+}
+
+button,
+#btn {
+    cursor: pointer;
+}
+
+/* Output */
+
+.btn-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn-search button {
+    width: 45%;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+th,
+td {
+    padding-left: 10px;
+    font-size: 19px;
+}
+
+
+
+td#btn {
+    border: none;
+    outline: none;
+    background: #140c5e;
+    padding: 7px 0;
+    border-radius: 20px;
+    color: #fff;
+    transition: .5s;
+    font-size: 14px;
+}
+
+td#btn:hover {
+    background: #350f53;
+    transform: scale(1.1);
+}
